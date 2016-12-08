@@ -3,8 +3,6 @@
 <head>
   <title>Sustainable Toilets for Developing Countries - About</title>
   <link rel="import" href="menu.html" />
-
-
   <style type='text/css'>
 .wsite-header {
   background-image: url(images/five.jpg) !important;
@@ -12,21 +10,6 @@
 }
   </style>
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
-  <script src='files/theme/main.js'></script>
-  <script>_W.relinquish && _W.relinquish()</script>
-  <script type='text/javascript'><!--
-(function(jQuery){
-function initFlyouts(){initPublishedFlyoutMenus([{"id":"230990887331887190","title":"Home","url":"index.html","target":""},{"id":"720735563564573190","title":"About","url":"about.html","target":""},{"id":"706154414330886812","title":"Opportunities","url":"opportunities.html","target":""},{"id":"511996047555737176","title":"At the Site","url":"at-the-site.html","target":""}],"230990887331887190","<li><a href='#'>{{title}}<\/a><\/li>",'active',false)}
-if (jQuery) {
-if (jQuery.browser.msie && !window.flyoutMenusRefreshable) window.onload = initFlyouts;
-else jQuery(initFlyouts);
-}else{
-if (Prototype.Browser.IE) window.onload = initFlyouts;
-else document.observe('dom:loaded', initFlyouts);
-}
-})(window._W && _W.jQuery)
-//-->
-  </script>
 </head>
 <body class='landing-page  wsite-theme-light wsite-page-index'>
 <div id="header-wrap">
@@ -56,7 +39,6 @@ else document.observe('dom:loaded', initFlyouts);
 var link = document.querySelector('link[rel="import"]');
 var content = link.import;
 
-// Grab DOM from warning.html's document.
 var el = content.querySelector('.includeMenu');
 
 document.body.appendChild(el.cloneNode(true));
@@ -77,7 +59,7 @@ document.body.appendChild(el.cloneNode(true));
 
             <p class='wsite-text wsite-headline-paragraph'>
 
-              The Team
+              <!-- Text can go here -->
 
             </p>
             <p>
@@ -125,9 +107,12 @@ document.body.appendChild(el.cloneNode(true));
                   <td class='wsite-multicol-col' style='width:50%;padding:0 15px'>
 
                     <div class="paragraph" style="text-align:left;">
-<ul>
-  <li>Flora Pizey</li>
-</ul>
+
+<!-- Text here -->
+
+
+
+
                     </div>
 
 
@@ -155,29 +140,11 @@ document.body.appendChild(el.cloneNode(true));
 <div id="footer-wrap">
   <div id="footer-inner-wrap">
     <div class="container">
-      <script type='text/javascript'>
-//<!--
+<!-- Footer -->
 
-if (document.cookie.match(/(^|;)\s*is_mobile=1/)) {
-  var windowHref = window.location.href || '';
-  if (windowHref.indexOf('?') > -1) {
-    windowHref += '&';
-  } else {
-    windowHref += '?';
-  }
-  document.write(
-    "&nbsp;&nbsp;&nbsp;&nbsp;" +
-    "<a class='wsite-view-link-mobile' href='" + windowHref + "view=mobile'>Mobile Site</a>"
-  );
-}
-
-//-->
-
-      </script>
     </div><!-- end container -->
   </div><!-- end footer-inner-wrap -->
 </div><!-- end footer-wrap -->
-
 </body>
 </html>
 
