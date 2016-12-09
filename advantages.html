@@ -37,14 +37,13 @@
     </table>
   </div><!-- end container -->
 </div><!-- end header-wrap -->
+<div id="insertMenuHere" ></div>
 <script>
 var link = document.querySelector('link[rel="import"]');
 var content = link.import;
-
-// Grab DOM from warning.html's document.
-var el = content.querySelector('.includeMenu');
-
-document.body.appendChild(el.cloneNode(true));
+var menu = content.getElementById("menu");
+var insertHere = document.getElementById("insertMenuHere");
+insertHere.appendChild(menu.cloneNode(true));
 </script>
 <div id="banner-wrap" class="wsite-background">
   <div class="container">
