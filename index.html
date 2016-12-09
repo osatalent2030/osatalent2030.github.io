@@ -2,12 +2,14 @@
 <html>
 <head>
   <title>Sustainable Toilets for Developing Countries - Home</title>
-  <link rel="import" href="menu.html" />
+  <link rel="import" href="menu.html"/>
   <style type='text/css'>
 .wsite-header {
   background-image: url(images/five.jpg) !important;
   background-position: 0 0 !important;
 }
+
+
   </style>
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
 </head>
@@ -27,7 +29,8 @@
         <td id="header-right">
           <table>
             <tr>
-              <td class="phone-number"><span class='wsite-text wsite-phone'>Part of Talent 2030 Competition - Flora Pizey, Oxford Spires Academy</span></td>
+              <td class="phone-number"><span class='wsite-text wsite-phone'>Part of Talent 2030 Competition - Flora Pizey, Oxford Spires Academy</span>
+              </td>
             </tr>
           </table>
         </td>
@@ -35,14 +38,16 @@
     </table>
   </div><!-- end container -->
 </div><!-- end header-wrap -->
+
+<div id="insertMenuHere" ></div>
 <script>
 var link = document.querySelector('link[rel="import"]');
 var content = link.import;
-
-var el = content.querySelector('.includeMenu');
-
-document.body.appendChild(el.cloneNode(true));
+var menu = content.getElementById("menu");
+var insertHere = document.getElementById("insertMenuHere");
+insertHere.appendChild(menu.cloneNode(true));
 </script>
+
 <div id="banner-wrap" class="wsite-background">
   <div class="container">
     <div id="banner">
@@ -112,23 +117,22 @@ document.body.appendChild(el.cloneNode(true));
                     <div class="paragraph" style="text-align:left;">
 
 
-
                       In many developing countries, the inhabitants are forced to relieve
                       themselves in germ-infested rivers near by. They are forced to do
                       this because they have no other alternative, such as clean, running
                       water.
-                          The same river that they relieve themselves in is the one that
+                      The same river that they relieve themselves in is the one that
                       they also drink from and wash in. Consequently, diseases can be
                       easily passed from family to family and the underlying reason would
                       be that the water that they drink from is infested in solid and
                       liquid waste.
-                          Due to the severe lack of health care in these regions, illness
+                      Due to the severe lack of health care in these regions, illness
                       and virus caused by bad hygiene can lead to fatal consequences.
 
                       Our product is an attempt to help solve this major issue that costs
                       many lives. We are trying to work towards manufacturing a 'sustainable
                       toilet for developing countries.'
-                          Since we started working on this project, our idea has developed
+                      Since we started working on this project, our idea has developed
                       a huge amount; going from wind turbines all the way to a solution to
                       insure hygienic waste disposal in low income countries. Over the
                       design process, we have altered and developed our idea so that it is
@@ -162,7 +166,7 @@ document.body.appendChild(el.cloneNode(true));
 
         <div>
           <div style="height: 20px; overflow: hidden; width: 100%;"></div>
-          <hr class="styled-hr" style="width:100%;" />
+          <hr class="styled-hr" style="width:100%;"/>
           <div style="height: 20px; overflow: hidden; width: 100%;"></div>
         </div>
 
@@ -189,7 +193,7 @@ document.body.appendChild(el.cloneNode(true));
 
                       <!-- Text can go here -->
                     </div>
-                    <hr style="width:100%;clear:both;visibility:hidden;" />
+                    <hr style="width:100%;clear:both;visibility:hidden;"/>
 
                     <div style="text-align:center;">
                       <div style="height: 10px; overflow: hidden;"></div>
@@ -220,7 +224,7 @@ document.body.appendChild(el.cloneNode(true));
 
         <div>
           <div style="height: 20px; overflow: hidden; width: 100%;"></div>
-          <hr class="styled-hr" style="width:100%;" />
+          <hr class="styled-hr" style="width:100%;"/>
           <div style="height: 20px; overflow: hidden; width: 100%;"></div>
         </div>
 
@@ -248,7 +252,8 @@ document.body.appendChild(el.cloneNode(true));
 
                       <!-- Text can go here -->
                     </div>
-                    <hr style="width:100%;clear:both;visibility:hidden;" />
+
+                    <hr style="width:100%;clear:both;visibility:hidden;"/>
 
                     <div style="text-align:center;">
                       <div style="height: 10px; overflow: hidden;"></div>
@@ -278,7 +283,7 @@ document.body.appendChild(el.cloneNode(true));
         </div>
         <div>
           <div style="height: 20px; overflow: hidden; width: 100%;"></div>
-          <hr class="styled-hr" style="width:100%;" />
+          <hr class="styled-hr" style="width:100%;"/>
           <div style="height: 20px; overflow: hidden; width: 100%;"></div>
         </div>
 
@@ -306,7 +311,7 @@ document.body.appendChild(el.cloneNode(true));
 
                       <!-- Text can go here -->
                     </div>
-                    <hr style="width:100%;clear:both;visibility:hidden;" />
+                    <hr style="width:100%;clear:both;visibility:hidden;"/>
 
                     <div style="text-align:center;">
                       <div style="height: 10px; overflow: hidden;"></div>
@@ -340,7 +345,7 @@ document.body.appendChild(el.cloneNode(true));
           Flora Pizey.
           <br/>
           <span></span>More about Talent2030 - <a
-              href="http://www.talent2030.org/blog/2244/talent-2030-national-engineering-competition-for-girls/">http://www.talent2030.org/blog/2244/talent-2030-national-engineering-competition-for-girls/</a>&nbsp;
+            href="http://www.talent2030.org/blog/2244/talent-2030-national-engineering-competition-for-girls/">http://www.talent2030.org/blog/2244/talent-2030-national-engineering-competition-for-girls/</a>&nbsp;
         </font></div>
       </div>
 
@@ -351,7 +356,6 @@ document.body.appendChild(el.cloneNode(true));
 <div id="footer-wrap">
   <div id="footer-inner-wrap">
     <div class="container">
-
 
 
     </div><!-- end container -->
