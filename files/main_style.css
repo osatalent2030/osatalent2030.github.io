@@ -1,34 +1,55 @@
-
-ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, div.paragraph, blockquote, fieldset, input { margin: 0; padding: 0; }
- ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input {
-  margin: 0;
-  padding: 0;
- }
- a img { border: 0; }
- a { text-decoration: none; }
- body {
- font-family: 'VT323', monospace;
- font-family: 'Comfortaa', cursive;
+body {
+ font-family: sans-serif;
  font-size: 15px; color:#444444;
- line-height:26px; background:url(theme/header-footer-bg.jpg?603749) repeat; }
- .container { margin: 0 auto; width: 940px; }
- #header-wrap, #banner-wrap, #nav-wrap, #nav-border-top, #nav-border-bottom, #main-wrap, #footer-wrap, #footer-inner-wrap, #outer-banner-wrap { background: url(theme/content-bg.jpg?603749) repeat; width:100%; }
- a { color: #a74403; }
- a:hover { color: #2f7a00; }
- h2 { font-size: 30px; padding: .5em 0 .2em 0; line-height: 1.2;
- font-family: 'Oswald', sans-serif; font-weight:bold; text-transform:uppercase; color: #333333; }
- div.paragraph { line-height: 1.5; padding: .5em 0; }
- p { line-height: 1.5; padding: .5em 0; }
- div#content {min-height:400px;}
- #header-wrap { padding:10px 0px; }
- #logo, #logo a { font-size:40px; color:#fff; text-transform:uppercase; font-weight:bold;
- font-family: 'Oswald', sans-serif;
- padding:15px 0; text-shadow: 0px 0px 15px #999999; display:block; line-height:50px; max-width:500px; }
- #logo a:hover { color:#fff; }
- #header, #nav-wrap table { border-collapse: collapse; border-spacing: 0; width:100%; }
- #header td, #nav-wrap table td { vertical-align: middle; text-align: left; }
- #header-right table { float: right; width: 1px; }
- #header-right td, #header-left td { padding: 0; }
+ line-height:26px; background:url(theme/header-footer-bg.jpg?603749) repeat;
+}
+.container {
+ margin: 0 auto; width: 940px;
+}
+#header-wrap, #banner-wrap, #nav-wrap, #nav-border-top, #nav-border-bottom, #main-wrap, #footer-wrap, #footer-inner-wrap, #outer-banner-wrap {
+ background: url(theme/content-bg.jpg?603749) repeat; width:100%;
+}
+a {
+ color: #a74403;
+}
+a:hover {
+ color: #2f7a00;
+}
+h2 {
+ font-size: 30px;
+ padding: .5em 0 .2em 0; line-height: 1.2;
+ font-family: sans-serif;
+ font-weight:bold;
+ text-transform:uppercase;
+ color: #333333;
+}
+div.paragraph {
+ line-height: 1.5; padding: .5em 0;
+}
+p {
+ line-height: 1.5; padding: .5em 0;
+}
+div#content {
+ min-height:400px;
+}
+#header-wrap {
+ padding:10px 0px;
+}
+
+#td logo, #td logo a {
+ font-size:40px; color:#fff;
+ text-transform:uppercase;
+ font-weight:bold;
+ font-family: sans-serif;
+ padding:15px 0;
+ text-shadow: 0px 0px 15px #999999;
+}
+#td logo a:hover {
+ color:#fff;
+}
+
+#header-right td, #header-left td {
+ padding: 0; }
  #header-left table { float: left; width: 1px; margin-left:-5px; }
  #header-right .phone-number .wsite-text { color: #aaaaaa; font-size: 14px; font-style: italic; display: block; white-space: nowrap; }
  .wsite-social { vertical-align: middle; }
@@ -115,9 +136,12 @@ background: url(theme/banner-short.jpg?603749) no-repeat;
 margin: 12px 0 0 10px; float:left; }
 .no-header-page .wsite-header { display:none; }
 .landing-page #banner { background: none; padding: 0; }
-#bannerleft { float: left; width: 544px; height:404px;
-background:url(theme/banner-landing-bg.png?603749) no-repeat; }
- .landing-page .wsite-header { width: 520px; height: 380px; background: url(theme/banner-landing.jpg?603749) no-repeat; margin: 12px 0 0 12px; float:left; }
+#bannerleft {
+ float: left; width: 544px; height:404px;
+ background:url(theme/banner-landing-bg.png?603749) no-repeat;
+}
+.landing-page .wsite-header {
+ width: 520px; height: 380px; background: url(theme/banner-landing.jpg?603749) no-repeat; margin: 12px 0 0 12px; float:left; }
  #bannerright { float: right; width: 360px; padding-left: 36px; height:404px; }
  .landing-banner-outer { display: table; #position: relative; overflow: hidden; }
  .landing-banner-mid { #position: absolute; #top: 50%; display: table-cell; vertical-align: middle; }
@@ -161,7 +185,14 @@ background:url(theme/banner-landing-bg.png?603749) no-repeat; }
  .wsite-button-large.wsite-button-highlight .wsite-button-inner { background-image: url(theme/button_large_green.png?603749); }
 
 div.paragraph ul, div.paragraph ol {
-padding-left: 2.3em !important; margin: 5px 0 !important; overflow:hidden; }
-div.paragraph li { padding-left: 5px !important; margin: 3px 0 0 !important; }
-div.paragraph ul, div.paragraph ul li { list-style: disc outside !important; }
-div.paragraph ol, div.paragraph ol li { list-style: decimal outside !important; }
+ padding-left: 2.3em !important; margin: 5px 0 !important; overflow:hidden;
+}
+div.paragraph li {
+ padding-left: 5px !important; margin: 3px 0 0 !important;
+}
+div.paragraph ul, div.paragraph ul li {
+ list-style: disc outside !important;
+}
+div.paragraph ol, div.paragraph ol li {
+ list-style: decimal outside !important;
+}
