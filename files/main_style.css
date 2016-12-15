@@ -48,6 +48,15 @@ div#content {
  color:#fff;
 }
 
+#logo {
+ font-size:40px; color:#fff;
+ font-weight:bold;
+ font-family: sans-serif;
+ padding:15px 0;
+ text-shadow: 0px 0px 15px #999999;
+}
+
+
 #header-right td, #header-left td {
  padding: 0; }
  #header-left table { float: left; width: 1px; margin-left:-5px; }
