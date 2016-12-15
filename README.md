@@ -1,4 +1,4 @@
-# fluffibolli.github.io
-A personal site
+# https://oastalent2030.github.io
 
-Starting point http://superpowerplanttalent2030.weebly.com/
+A team entry for the Talent 2030 Competition
+http://www.talent2030.org/
